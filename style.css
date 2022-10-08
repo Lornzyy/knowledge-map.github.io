@@ -7,19 +7,19 @@
 body{
     min-height: 100vh;
     width: 100%;
-    background-color:  hsl(212, 45%, 89%);
+    background-color: lightblue;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-main > h1{
-    margin: 10px 10px 10px 5px;
+main h1{
+    margin: 10px;
     font-weight: 700;
     font-size: 1.8rem;
 }
 
-main > h3{
+main :h3{
     font-size: 1.4rem;
     text-align: right;
     margin: 10px;
@@ -27,24 +27,34 @@ main > h3{
     color: grey;
 }
 
-main > h5{
+main h5{
     text-align: right;
     font-weight: 200;
     margin: 10px;
     font-size: 1rem;
     color: grey;
 }
-
-main > p{
+main h2{
+    font-weight: 700;
+    font-size: 1.7rem;
+    margin: 10px;
+    text-align: center;
+}
+main p{
     font-size: 1.2rem;
     font-weight: 400;
     margin: 10px 20px 10px 20px;
 
 }
+#img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #knowledge-map{
     cursor: pointer;
     object-fit: contain;
-    width: 100%;
+    width: 70%;
     padding: 12px;
     border-radius: 50px;
     transition: transform .1s;
@@ -53,7 +63,12 @@ main > p{
 #knowledge-map:hover{
     transition: scale(1rem);
 }
-x
+
+h3{
+    margin: 10px;
+    text-align: center;
+}
+
 footer{
     margin-top: 1rem;
     margin-bottom: 0.5rem;
@@ -79,15 +94,25 @@ footer hr{
         display: block;
         align-items: center;
         justify-content: center;
+        background-color: hsl(212, 105, 100);
     }
     main > h1
+    {
+        margin: 10px;
+    }
+    #img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1rem;
+    }
     #knowledge-map{
         margin: 1rem;
         padding: 18px;
         transform: translateX(-5%);
         height: 500px;
         width: 500px;
-        border-radius: 60px;
+        border-radius: 80px;
     }
     footer{
         margin-bottom: 10px;
