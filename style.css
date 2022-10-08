@@ -50,6 +50,7 @@ main p{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 200px;
 }
 #knowledge-map{
     cursor: pointer;
@@ -58,6 +59,7 @@ main p{
     padding: 12px;
     border-radius: 50px;
     transition: transform .1s;
+    margin: 100px;
 
 }  
 #knowledge-map:hover{
@@ -101,18 +103,16 @@ footer hr{
         margin: 10px;
     }
     #img{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 1rem;
+        padding: 10px;
+        width: 100%;
     }
     #knowledge-map{
         margin: 1rem;
         padding: 18px;
-        transform: translateX(-5%);
-        height: 500px;
-        width: 500px;
-        border-radius: 80px;
+        transform: translateX(-50%);
+        object-fit: contain;
+        width: 100%;
+        border-radius: 50px;
     }
     footer{
         margin-bottom: 10px;
