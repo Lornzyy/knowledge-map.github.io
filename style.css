@@ -12,7 +12,9 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 1.2rem;
 }
+
 main h1{
     margin: 10px;
     font-weight: 700;
@@ -91,13 +93,15 @@ footer hr{
         padding: 0;
     }   
     body{
-        min-height: 100vh;
-        max-width: 100%;
-        display: block;
+        display: flex;
         align-items: center;
         justify-content: center;
-        overflow-x: hidden;
         background-color: hsl(212, 105, 100);
+        scroll-margin-right: -2000px;
+    }
+    main{
+        max-width: 28.4rem;
+        overflow-x: hidden;
     }
     main > h1
     {
