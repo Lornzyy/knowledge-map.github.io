@@ -33,7 +33,7 @@ main >h3{
 main h5{
     text-align: right;
     font-weight: 200;
-    margin: 10px;
+    margin-right: 30px;
     font-size: 1rem;
     color: grey;
 }
@@ -44,16 +44,21 @@ main h2{
     text-align: center;
 }
 main p{
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 400;
     margin: 10px 20px 10px 20px;
-
 }
 #img{
-    display: flex;
+    display: grid;
+    justify-self: center;
+    justify-items: center;
     justify-content: center;
-    align-items: center;
-    margin-left: 200px;
+}
+#img figcaption{
+    display: block;
+    justify-self: center;
+    margin-top: -100px;
+    font-style: italic;
 }
 #knowledge-map{
     cursor: pointer;
@@ -93,15 +98,14 @@ footer hr{
         padding: 0;
     }   
     body{
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         background-color: hsl(212, 105, 100);
-        scroll-margin-right: -2000px;
     }
     main{
         max-width: 28.4rem;
-        overflow-x: hidden;
     }
     main > h1
     {
@@ -109,16 +113,19 @@ footer hr{
     }
     #img{
         padding: 10px;
-        margin-left: 180px;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        display: grid;
+        justify-self: center;
+    }
+
+    #img figcaption{
+        margin-top: -1.6rem;
+        margin-left: 10px;
+        justify-self: center;
+        font-style: italic;
     }
     #knowledge-map{
         margin: 1rem;
         padding: 18px;
-        transform: translateX(-50%);
         object-fit: contain;
         width: 100%;
         border-radius: 50px;
