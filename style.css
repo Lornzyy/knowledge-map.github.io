@@ -93,7 +93,8 @@ footer hr{
 footer p {
     display: flex;
     justify-content: center;
-    margin: 5px;
+    margin: 10px;
+    margin-bottom: 7px;
 }
 footer ul {
     display: block;
