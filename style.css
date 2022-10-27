@@ -100,7 +100,7 @@ footer ul {
 }
 
 footer ul li{
-    list-style-type: none;
+    list-style: none;
     margin-bottom: 5px;
 }
 
@@ -150,9 +150,9 @@ footer ul li{
     footer p {
         margin: 5px;
     }
-    
+
     footer ul li{
-        list-style-type: none;
+        list-style: none;
         margin-bottom: 5px;
     }
 
