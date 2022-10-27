@@ -7,7 +7,7 @@
 body{
     min-height: 100vh;
     width: 100%;
-    background-color: lightblue;
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,6 +90,20 @@ footer hr{
     width: 100%;
 }
 
+footer p {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+footer ul {
+    display: block;
+}
+
+footer ul li{
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
 
 @media screen and (max-width: 750px)
 {
@@ -102,7 +116,7 @@ footer hr{
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: hsl(212, 105, 100);
+        background-color: hsl(255, 255, 250)
     }
     main{
         max-width: 28.4rem;
