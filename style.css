@@ -147,6 +147,14 @@ footer ul li{
     footer{
         margin-bottom: 10px;
     }
+    footer p {
+        margin: 5px;
+    }
+    
+    footer ul li{
+        list-style-type: none;
+        margin-bottom: 5px;
+    }
 
 }
 
